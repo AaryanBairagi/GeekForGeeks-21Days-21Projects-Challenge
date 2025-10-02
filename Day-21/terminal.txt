@@ -1,0 +1,34 @@
+##TERMINAL LOGS : 
+
+ *  History restored 
+
+PS C:\Users\Admin\Desktop\GeekForGeeks> cd Projects 
+PS C:\Users\Admin\Desktop\GeekForGeeks\Projects> cd Day-21
+PS C:\Users\Admin\Desktop\GeekForGeeks\Projects\Day-21> docker run volume create n8n_data
+Unable to find image 'volume:latest' locally
+docker: Error response from daemon: pull access denied for volume, repository does not exist or may require 'docker login'
+
+Run 'docker run --help' for more information
+PS C:\Users\Admin\Desktop\GeekForGeeks\Projects\Day-21> docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
+Permissions 0644 for n8n settings file /home/node/.n8n/config are too wide. This is ignored for now, but in the future n8n will attempt to change the permissions automatically. To automatically enforce correct permissions now set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true (recommended), or turn this check off set N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false.
+Initializing n8n process
+n8n ready on ::, port 5678
+
+There are deprecations related to your environment variables. Please take the recommended actions to update your configuration:
+ - DB_SQLITE_POOL_SIZE -> Running SQLite without a pool of read connections is deprecated. Please set `DB_SQLITE_POOL_SIZE` to a value higher than zero. See: https://docs.n8n.io/hosting/configuration/environment-variables/database/#sqlite
+ - N8N_RUNNERS_ENABLED -> Running n8n without task runners is deprecated. Task runners will be turned on by default in a future version. Please set `N8N_RUNNERS_ENABLED=true` to enable task runners now and avoid potential issues in the future. Learn more: https://docs.n8n.io/hosting/configuration/task-runners/
+ - N8N_BLOCK_ENV_ACCESS_IN_NODE -> The default value of N8N_BLOCK_ENV_ACCESS_IN_NODE will be changed from false to true in a future version. If you need to access environment variables from the Code Node or from expressions, please set N8N_BLOCK_ENV_ACCESS_IN_NODE=false. Learn more: https://docs.n8n.io/hosting/configuration/environment-variables/security/
+ - N8N_GIT_NODE_DISABLE_BARE_REPOS -> Support for bare repositories in the Git Node will be removed in a future version due to security concerns. If you are not using bare repositories in the Git Node, please set N8N_GIT_NODE_DISABLE_BARE_REPOS=true. Learn more: https://docs.n8n.io/hosting/configuration/environment-variables/security/
+
+[license SDK] Skipping renewal on init: license cert is not initialized
+[Data table] The Data table module is experimental and subject to change.
+Any tables added before the official release may become inaccessible at any point. Use at your own risk.
+Version: 1.113.3
+
+Editor is now accessible via:
+http://localhost:5678
+
+Press "o" to open in Browser.
+(node:7) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Slow database query
