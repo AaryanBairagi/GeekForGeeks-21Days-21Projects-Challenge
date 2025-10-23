@@ -1,6 +1,6 @@
 # 🚀 GeekForGeeks 21 Days, 21 Projects Challenge
 
-Welcome to my **21 Days, 21 Projects** repository!  
+Welcome to my **GeekForGeeks 21 Days, 21 Projects** repository!  
 This challenge was focused on building one Machine Learning , Deep Learning any GenAI project every day — from classical data analysis to cutting-edge deep learning, NLP, and computer vision applications.
 
 ---
