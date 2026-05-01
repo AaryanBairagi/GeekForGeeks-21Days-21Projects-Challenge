@@ -1,4 +1,4 @@
-# 🚀 GeekForGeeks 21 Days, 21 Projects Challenge
+# GeekForGeeks 21 Days, 21 Projects Challenge
 
 Welcome to my **GeekForGeeks 21 Days, 21 Projects** repository!  
 This challenge was focused on building one Machine Learning , Deep Learning any GenAI project every day — from classical data analysis to cutting-edge deep learning, NLP, and computer vision applications.
@@ -30,7 +30,7 @@ Each day’s folder includes:
 
 ---
 
-## 🧠 Project List
+## Project List
 
 | Day | Project Title |
 |-----|----------------|
@@ -58,7 +58,7 @@ Each day’s folder includes:
 
 ---
 
-## 🧩 Tech Stack
+## Tech Stack
 
 - **Languages:** Python  
 - **Libraries & Frameworks:**  
@@ -71,7 +71,7 @@ Each day’s folder includes:
 
 ---
 
-## 🌟 Highlights
+## Highlights
 
 - ✅ 21 end-to-end AI/ML projects  
 - 🧩 Covers Data Science, NLP, Computer Vision, and Generative AI  
@@ -80,9 +80,9 @@ Each day’s folder includes:
 
 ---
 
-## 📜 How to Run
+## How to Run
   
-  ```
+  
 1. Clone the repository  
    ```bash
    git clone https://github.com/<your-username>/21Days-21Projects.git
@@ -96,10 +96,10 @@ Each day’s folder includes:
    jupyter notebook
     
 3. Run the notebook or Python script to reproduce the results.
-  ```
+   
 ---
 
-## 🏁 Conclusion
+## Conclusion
 
 This challenge helped me strengthen my end-to-end understanding of AI — from data preprocessing and model building to deploying intelligent agents and generative models.
 
@@ -107,7 +107,7 @@ This challenge helped me strengthen my end-to-end understanding of AI — from d
 
 ---
 
-### 📬 Connect with Me
+### Connect with Me
 
 **Aaryan Bairagi**
 💻 [GitHub](https://github.com/<AaryanBairagi>)
